@@ -1,2 +1,2 @@
 /usr/local/bin/LoginTutorial.zsh
-/Library/LaunchAgents/edu.stoybrook.doit.setuphome.plist
+/Library/LaunchAgents/edu.stonybrook.doit.setuphome.plist
