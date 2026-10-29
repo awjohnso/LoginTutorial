@@ -3,7 +3,7 @@
 
 ##################################### VARIABLES ##########################################
 
-vers="4.00b3"
+vers="4.01"
 myPID=$$
 myProcName=$( /usr/bin/basename ${0} )
 myUser=$( /bin/echo $( /usr/bin/dscl . read /Users/$(/usr/sbin/scutil <<< "show State:/Users/ConsoleUser" | /usr/bin/awk '/Name :/ && ! /loginwindow/ { print $3 }') RealName ) | /usr/bin/awk -F ': ' '{print $2}' )
